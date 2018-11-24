@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Resultado</string>
+   <string>Consumo del Recibo</string>
   </property>
   <widget class="QPushButton" name="atras3">
    <property name="geometry">
