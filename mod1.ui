@@ -70,25 +70,6 @@
     <string>Industria</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="Tipo_edificio">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>10</y>
-     <width>231</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Nirmala UI</family>
-     <pointsize>20</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>¿Tipo de Edificio?</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="siguiente">
    <property name="geometry">
     <rect>
@@ -125,6 +106,28 @@
    </property>
    <property name="text">
     <string>Atrás</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_edificios">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>¿Elegir tipos de Edificios?</string>
    </property>
   </widget>
  </widget>
