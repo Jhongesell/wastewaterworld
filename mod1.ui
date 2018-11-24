@@ -6,130 +6,119 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>375</width>
-    <height>366</height>
+    <width>389</width>
+    <height>327</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Tipo de Edificio</string>
   </property>
-  <widget class="QRadioButton" name="e_residencial">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>140</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Bahnschrift Light</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Edificio Residencial</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="e_corporativo">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>180</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Bahnschrift Light</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Edificio Corporativo</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="e_industria">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>220</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Bahnschrift Light</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Industria</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="siguiente">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>300</y>
-     <width>151</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe MDL2 Assets</family>
-     <pointsize>20</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Siguiente</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="atras">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>300</y>
-     <width>151</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe MDL2 Assets</family>
-     <pointsize>20</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Atrás</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_edificios">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>60</y>
-     <width>291</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Nirmala UI</family>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="layoutDirection">
-    <enum>Qt::RightToLeft</enum>
-   </property>
-   <property name="text">
-    <string>¿Elegir tipos de Edificios?</string>
-   </property>
-  </widget>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 85, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_edificios">
+     <property name="font">
+      <font>
+       <family>Nirmala UI</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>¿Elegir tipos de Edificios?</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="e_residencial">
+     <property name="font">
+      <font>
+       <family>Bahnschrift Light</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Edificio Residencial</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="e_corporativo">
+     <property name="font">
+      <font>
+       <family>Bahnschrift Light</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Edificio Corporativo</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="e_industria">
+     <property name="font">
+      <font>
+       <family>Bahnschrift Light</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Industria</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="siguiente">
+     <property name="font">
+      <font>
+       <family>Segoe MDL2 Assets</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 170, 255);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Siguiente</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="atras">
+     <property name="font">
+      <font>
+       <family>Segoe MDL2 Assets</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>Atrás</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

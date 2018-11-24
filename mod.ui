@@ -13,6 +13,11 @@
   <property name="windowTitle">
    <string>Consumo del Recibo</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 85, 255);
+background-color: rgb(0, 85, 255);
+color: rgb(255, 255, 255);</string>
+  </property>
   <widget class="QPushButton" name="atras3">
    <property name="geometry">
     <rect>
@@ -27,6 +32,9 @@
      <family>Segoe MDL2 Assets</family>
      <pointsize>20</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 255);</string>
    </property>
    <property name="text">
     <string>Atrás</string>
@@ -49,6 +57,9 @@
    </property>
    <property name="focusPolicy">
     <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 170, 255);</string>
    </property>
    <property name="text">
     <string>Siguiente</string>
@@ -84,6 +95,9 @@
      <width>221</width>
      <height>71</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_edificios_2">
