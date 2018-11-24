@@ -1,2 +1,44 @@
-def funcion1():
-    var1 = 50
+   #-*- coding: utf-8-*-
+Ptotal = float(input("Ingrese Presion"))   #Presion en mmca
+Q = float(input("Ingrese Caudal"))         #en m3/hr
+N = 3600       #RPM
+rho = 1293      #Densidad
+
+Ptotal1 = 997*9.81*Ptotal/100
+H = Ptotal1/(rho*9.81)
+Y = Ptotal1/rho
+Q1 = Q/3600
+nq = (N*Q1**(0.5))/(H**(3/4))
+
+si = 0.72
+ni = 0.84
+
+up2 = (2*9.81*H/si)**(0.5)
+dp2 = up2/(3.1416*(N/60))
+d2 = round(dp2)
+
+Kca = 0.55*(nq/100)**(1/3)
+Cpa = Kca*(2*9.81*H)**(0.5)
+
+nv = 0.94
+
+dpa = ((4*Q1)/(nv*3.1416*Cpa))**(0.5)
+da = round(dpa)
+Ca = 1/((da**2)*nv*3.1416/(4*4))
+
+d1=0.04
+da=0.04
+d2d1 = d2/d1
+u1 = up2/d2d1
+m = 0.5*(100/nq)**(1/6)
+
+#Co = Com
+Cpom = m*Ca
+bp1 = Q1/(nv*3.1416*d1*Cpom)
+b1 = round(bp1)
+Com = Cpom
+
+Tau1 = 1.066273
+
+C1 = Com*Tau1
+beta1 =
