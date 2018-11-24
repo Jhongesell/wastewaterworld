@@ -1,4 +1,6 @@
    #-*- coding: utf-8-*-
+import numpy as np
+
 Ptotal = float(input("Ingrese Presion"))   #Presion en mmca
 Q = float(input("Ingrese Caudal"))         #en m3/hr
 N = 3600       #RPM
@@ -41,4 +43,9 @@ Com = Cpom
 Tau1 = 1.066273
 
 C1 = Com*Tau1
-beta1 =
+beta1 = np.degrees(np.arctan(C1/u1))
+beta2 = beta1+10
+
+k=3
+
+zp = 
