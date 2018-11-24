@@ -6,55 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>378</width>
-    <height>367</height>
+    <width>400</width>
+    <height>364</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Recibo</string>
+   <string>Resultado</string>
   </property>
-  <widget class="QRadioButton" name="e_no">
+  <widget class="QPushButton" name="atras3">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>140</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Bahnschrift Light</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>No</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="e_si">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>180</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Bahnschrift Light</family>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Sí</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="atras2">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
+     <x>40</x>
      <y>300</y>
      <width>151</width>
      <height>41</height>
@@ -70,10 +32,10 @@
     <string>Atrás</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="siguiente2">
+  <widget class="QPushButton" name="siguiente3">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>200</x>
      <y>300</y>
      <width>151</width>
      <height>41</height>
@@ -85,6 +47,9 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
    <property name="text">
     <string>Siguiente</string>
    </property>
@@ -93,7 +58,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>50</y>
+     <y>30</y>
      <width>291</width>
      <height>41</height>
     </rect>
@@ -108,7 +73,39 @@
     <enum>Qt::RightToLeft</enum>
    </property>
    <property name="text">
-    <string>¿Tiene recibo?</string>
+    <string>Consumo</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_edificios_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>Litros</string>
    </property>
   </widget>
  </widget>
